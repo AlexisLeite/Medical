@@ -1,0 +1,20 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
+ul.Triangle {
+  list-style: none;
+}
+ul.Triangle li::before {
+  content: '';
+  border-color: transparent #111;
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -30px;
+  top: 0.9em;
+  position: relative;
+  transform: translateY(3px);
+}

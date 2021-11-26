@@ -1,0 +1,2 @@
+cerrar menu al cargar
+scroll al titulo al cargar

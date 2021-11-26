@@ -21,7 +21,7 @@ const TopBox: React.FunctionComponent<ITopBoxProps> = (props) => {
       <Container maxW="container.xl">
         <Flex alignItems="center" direction={['column', null, 'row']}>
           <Text pt={['3px', null, 'auto']} as="strong">
-            Dra. Graciela Pintos
+            Dra. Fernanda Alberti
           </Text>
           <Spacer></Spacer>
           <Stack spacing={[0, null, 15]} direction={['column', null, 'row']}>

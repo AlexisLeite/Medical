@@ -17,7 +17,7 @@ function About({ about }: AboutProps): ReactElement {
   return (
     <>
       <Head>
-        <title>Dra. Graciela Pintos - Medicina integral</title>
+        <title>Dra. Fernanda Alberti Schopenhauer - Medicina integral</title>
       </Head>
       <Container maxW="container.xl">
         <Page source={about.fields.cuerpo} title={about.fields.titulo} />

@@ -151,8 +151,8 @@ function CustomLinks({
 }
 function Logo({ isOpen }: { isOpen: boolean }) {
   const OpenSource = useBreakpointValue({
-    base: '/graciela/images/logo200x199.png',
-    md: '/graciela/images/logo32x32.png',
+    base: '/images/logo200x199.png',
+    md: '/images/logo32x32.png',
   });
   const linkBoxStyles = isOpen
     ? { order: 1, spacing: 8, p: [10, null, 0], ml: 4 }
@@ -166,7 +166,7 @@ function Logo({ isOpen }: { isOpen: boolean }) {
         src: OpenSource,
         w: ['60%', '40%', '28px'],
       }
-    : { m: 0, src: '/graciela/images/logo200x199.png', w: 150 };
+    : { m: 0, src: '/images/logo200x199.png', w: 150 };
   const headingStyles = isOpen
     ? { whiteSpace: 'nowrap', fontSize: ['3xl', '3xl', 'xl'], as: 'h1', color: '#ffffea' }
     : {
